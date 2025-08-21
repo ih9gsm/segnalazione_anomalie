@@ -1,0 +1,12 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "cypress": "cypress run --config-file cypress.config.js"
+  },
+  "devDependencies": {
+    "cypress": "^13.14.0",
+    "jest": "^29.7.0"
+  }
+}
