@@ -5,8 +5,13 @@
   <title>Frontend App</title>
 </head>
 <body>
-  <button id="btn">Click</button>
-  <p id="count">0</p>
+  <h1>Segnalazione Anomalie</h1>
+  <form id="reportForm">
+    <textarea id="description" placeholder="Descrizione"></textarea>
+    <input id="recipients" placeholder="Email destinatari (separate da virgola)" />
+    <button type="submit">Invia</button>
+  </form>
+  <p id="status"></p>
   <script src="app.js"></script>
 </body>
 </html>
