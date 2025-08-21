@@ -1,5 +1,9 @@
 # segnalazione_anomalie
 
+Simple anomaly reporting application for airports. The backend exposes APIs to
+manage users, configure SMTP and logo settings, and generate reports. Reports
+are produced as PDF and Word files and can be emailed to specified recipients.
+
 ## Testing
 
 Backend tests use PyTest:
